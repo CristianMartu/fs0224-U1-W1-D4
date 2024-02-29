@@ -1,0 +1,75 @@
+/* IMPOSTAZIONI GENERALI */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+     max-width: 500px;
+     width: 450px;
+     background-size: 456px;
+     background-image: url(img/sfondo.png); 
+     background-repeat: repeat-y;
+     /* border: 2px solid black; */
+     font-family: "Poppins", sans-serif;
+     font-weight: 300;
+     font-style: normal; 
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+li{
+    margin: 5px 0;
+}
+/* HEADER */
+header, main, footer{
+    padding: 25px;
+    padding-bottom: 0;
+}
+.h_conteiner{
+    padding: 25px;
+    max-width: 400px;
+    background-color: skyblue;
+    text-align: center;
+    border: 1px groove black;
+    color: white;
+}
+header li{
+    
+}
+#logo{
+    width: 40%;
+    margin: 10px 0;
+    text-align: center;
+}
+/* MAIN */
+.m_container{
+    max-width: 400px;
+    background-color: white;
+    border: 1px groove black;
+    padding: 10px;
+}
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
+footer{
+    padding-bottom: 25px;
+}
+.f_container{
+    max-width: 400px;
+    padding: 25px;
+    background-color: skyblue;
+    text-align: center;
+    border: 1px groove black;
+    color: white;
+}
+
+iframe{
+    border-radius: 20px;
+}
+#video{
+    text-align: center;
+}
